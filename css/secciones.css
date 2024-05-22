@@ -84,7 +84,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 5px;
 }
 
@@ -191,6 +191,7 @@ html body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
 .pie-pagina .grupo-2 .contact-button:hover {

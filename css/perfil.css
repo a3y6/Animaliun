@@ -48,28 +48,69 @@
     color: #fff;
 }
 
+/*PERFIL*/
 
+.perfil {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    background-color: #2B2417;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
 
+.perfil-imagen img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px; 
+}
 
+.perfil-info {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
+.campo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
 
+.campo label {
+    color: white;
+    margin-bottom: 5px;
+}
 
+.campo input[type="text"],
+.campo input[type="date"],
+.campo input[type="email"] {
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
 
+button.editar {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+button.editar:hover {
+    background-color: #0056b3;
+}
 
 
 
@@ -175,6 +216,7 @@ padding: 10px 20px;
 border: none;
 cursor: pointer;
 transition: background-color 0.3s ease;
+text-decoration: none;
 }
 
 .pie-pagina .grupo-2 .contact-button:hover {
